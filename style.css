@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+}
+.header{
+    justify-content: space-around;
+    display: flex;
+    background-color: rgba(7, 204, 204, 0.226);
+    align-items: center;
+}
+.header input{
+    height: 40px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 10em;
+    margin: .5em 5em;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: blue;
+}
+.navbar button{
+    margin-right: 5em;
+}
+.carousel-item .text{
+    position: absolute;
+    margin-top: -25em;
+    color: white;
+    margin-left: 10em;
+}
+.text span{
+    font-size: 50px;
+    color: red;
+
+}
+.text h1{
+    line-height: 39px;
+}
+.text pre{
+    font-size: 18px;
+
+}
+#NEWS h1{
+  color: rgba(14, 14, 216, 0.87);
+padding-top: 3em;
+  margin-left: 2em;
+  font-size: 60px;
+
+}
+.pera{
+    margin: 3em;
+    display: flex;
+justify-content: space-evenly; 
+}
+.pera pre{
+    font-size: 17px;
+}
+.hr{
+    margin-top: -2em;
+    width: 20%;
+    height: 5px;
+background-color: rgba(0, 0, 255, 0.719); 
+   margin-left: 7.8em;
+font-weight: 1000;
+}
+
+.team{
+    width: 300px;
+    height: 450px;
+    padding-top: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.Card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+}
+#teams h1{
+    color: rgba(14, 14, 216, 0.87);
+   padding-top: 2em;
+    margin-left: 2em;
+    font-size: 60px;
+
+  }
+  #players{
+    margin-top: 4em;
+  }
+  #players h1{
+    color: rgba(14, 14, 216, 0.87);
+    margin-top: 4.5em;
+    margin-left: 2em;
+    font-size: 60px;
+
+  }
+  .cards{
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+}
+.one{
+    height: 50%;
+    width: 23.5%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.tt{
+    display: flex;            
+}
+.tc{
+    position: relative;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.bb{
+    display: flex;
+    width: 95%;
+    margin-top: -px;
+    background-color: rgb(188, 220, 247);
+    border-radius: 10px;
+    padding: 5px;
+}
+.pp{
+    text-align: center;
+    width: 30%;
+line-height: 10px;
+}
+.Kk{
+    text-align: center;
+    width: 30%;
+    margin-top: 13px;
+    line-height: 8px;
+}
+  #footer{
+   padding-top: 10em;
+   margin-top: 5em;
+    background-color: antiquewhite;
+  }
+  .flogo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .flogo i{
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  .ftext{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .last{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(201, 175, 145, 0.952);
+padding-top: 1em;
+  }
+
+
+  pre{
+    font-family: "PT Serif", serif;
+
+  }
+  
